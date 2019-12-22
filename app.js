@@ -1,3 +1,5 @@
 const fs = require('fs');
 
-fs.writeFileSync('notes.txt', 'My name is Jacques.');
+// fs.writeFileSync('notes.txt', 'My name is Bob.');
+
+fs.appendFileSync('notes.txt', '\nA new line added.');
