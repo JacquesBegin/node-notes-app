@@ -5,7 +5,10 @@ const getNotes = function() {
 };
 
 const addNote = function(title, body) {
-  
+
 }
 
-module.exports = getNotes;
+module.exports = {
+  getNotes: getNotes,
+  addNote: addNote
+}
