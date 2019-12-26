@@ -10,6 +10,9 @@ yargs.version("1.1.0");
 yargs.command({
   command: "add",
   describe: "Add a new note",
+  builder: {
+    
+  },
   handler: function() {
     console.log("Adding a new note");
   }
